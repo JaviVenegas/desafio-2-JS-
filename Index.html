@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Condiciones</title>
+    <link rel="stylesheet" href="Assets/Css/style.css">
+    
+</head>
+<body>
+<!-- Part 1 -->
+<section class="sectionone">
+    <h2>Ejercicio 1</h2>
+    <img id=img src="Assets/Imgs/parte 1.jpg" alt="#">
+    <h3>¡Haz click en la imagen!</h3>
+</section>
+
+<!-- Part 2 -->
+<section class="sectiontwo">
+    <h2> Ejercicio 2</h2>
+    <h3> Puedes llevar un maximo de 10 Stickers en total </h3>
+    <div class="galery">
+        <div class="sticker">
+            <img class="imganeejer2" src="Assets/Imgs/bird 0.jpg" alt="#">
+            <input type="number" min="0" max="10" placeholder="cantitad"  id="amount1">
+        </div>
+        <div class="sticker">
+            <img class="imganeejer2" src="Assets/Imgs/bird 1.jpg" alt="#">
+            <input type="number" min="0" max="10" placeholder="cantitad"  id="amount2">
+        </div>
+        <div class="sticker">
+            <img class="imganeejer2" src="Assets/Imgs/bird 2.jpg" alt="#">
+            <input type="number" min="0" max="10" placeholder="cantitad"  id="amount3">
+        </div>
+    </div>
+    <p id="menssaje"></p>
+    <div class="btn">
+        <button class="verificador" id="btn">Verificar</button>
+    </div>
+</section>
+<!-- Part 3 -->
+<section class="sectionthree">
+
+    <h2> Ejercicio 3</h2>
+    <div class="container">
+        <h2 class="big-title">Ingresa la Contraseña</h2>
+        <div class="password-inputs">
+            <div class="input-container">
+                <label for="digit1"></label>
+                <select name="digit1" id="digit1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <div class="input-container">
+                <label for="digit2"></label>
+                <select name="digit2" id="digit2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <div class="input-container">
+                <label for="digit3"></label>
+                <select name="digit3" id="digit3">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+        </div>
+        <div class="btn2">
+            <button class="verify-button" id="btn3">Ingresar</button>
+        </div>
+        <h3 id="message3"> </h3>
+    </div>
+</section>
+
+<script src="Assets/JS/index.js"></script>
+</body>
+</html>
